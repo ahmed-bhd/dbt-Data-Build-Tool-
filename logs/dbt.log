@@ -1,0 +1,43 @@
+
+
+============================== 2026-08-26 17:20:20.890677 | 72b4f8c7-6a46-428c-9dcd-949ce631cae0 ==============================
+[0m17:20:20.890677 [info ] [MainThread]: Running with dbt=1.4.10
+[0m17:20:20.891786 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': 'C:\\Users\\xps\\.dbt', 'send_anonymous_usage_stats': True, 'quiet': False, 'no_print': False, 'cache_selected_only': False, 'project_name': 'dbt_learn', 'skip_profile_setup': False, 'which': 'init', 'indirect_selection': 'eager'}
+[0m17:20:20.891786 [debug] [MainThread]: Tracking: tracking
+[0m17:20:20.899790 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000274B6E6AB50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000274B6C3BB90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000274B6F47B50>]}
+[0m17:20:20.902015 [warn ] [MainThread]: [[33mWARNING[0m]: This version of dbt is deprecated and no longer receives regular patches, including for known bugs. Please upgrade to a newer supported version of dbt for new projects: https://docs.getdbt.com/docs/dbt-versions?utm_source=dbt-cli
+[0m17:20:20.903233 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'deprecated_version_invocation', 'label': '72b4f8c7-6a46-428c-9dcd-949ce631cae0', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000274B6BBEC10>]}
+[0m17:20:20.903766 [debug] [MainThread]: Starter project path: C:\Users\xps\Desktop\dbt_Project\dbt-Data-Build-Tool-\dbt_venv\Lib\site-packages\dbt\include\starter_project
+[0m17:23:26.559327 [info ] [MainThread]: Profile dbt_learn written to C:\Users\xps\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m17:23:26.559327 [info ] [MainThread]: 
+Your new dbt project "dbt_learn" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m17:23:26.560925 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000274B6BA8B90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000274B967FD50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000274B967E410>]}
+[0m17:23:26.560925 [debug] [MainThread]: Flushing usage events
+
+
+============================== 2026-08-26 17:25:43.782828 | a8588e02-664d-4c26-a8eb-b8b709ced3cd ==============================
+[0m17:25:43.782828 [info ] [MainThread]: Running with dbt=1.4.10
+[0m17:25:43.787918 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': 'C:\\Users\\xps\\.dbt', 'send_anonymous_usage_stats': True, 'quiet': False, 'no_print': False, 'cache_selected_only': False, 'config_dir': True, 'which': 'debug', 'indirect_selection': 'eager'}
+[0m17:25:43.789045 [info ] [MainThread]: This version of dbt is deprecated and no longer receives regular patches, including for known bugs. We recommend upgrading to a newer supported version of dbt: https://docs.getdbt.com/docs/dbt-versions
+[0m17:25:43.789045 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'deprecated_version_invocation', 'label': 'a8588e02-664d-4c26-a8eb-b8b709ced3cd', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E991906A90>]}
+[0m17:25:43.790007 [debug] [MainThread]: Tracking: tracking
+[0m17:25:43.799006 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E991B23410>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E991B20410>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E991B20850>]}
+[0m17:25:43.800024 [info ] [MainThread]: To view your profiles.yml file, run:
+
+start C:\Users\xps\.dbt
+[0m17:25:43.801025 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E991B20410>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E991B20B50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E991B11C10>]}
+[0m17:25:43.801025 [debug] [MainThread]: Flushing usage events
